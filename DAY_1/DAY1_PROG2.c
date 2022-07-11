@@ -1,4 +1,4 @@
-*/2) Consider a character input from a user and print if it is a vowel or consonant. */
+/*2) Consider a character input from a user and print if it is a vowel or consonant. */
 	
 			#include <stdio.h>
 			int main() 
