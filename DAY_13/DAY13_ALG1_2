@@ -1,0 +1,6 @@
+Algorithm:
+1)	Read input in 2D array at runtime.
+2)	Check the condition where the data is less than 0x05 and more than 0XFF.
+3)	If the condition is true print the time stamp where the data is noisy.
+4)	Check second condition where data is less than 0x05 and greater than 0XFF.
+5)	If the condition is true just break the loop and print the data which are not in the range of condition.
