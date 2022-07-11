@@ -1,0 +1,7 @@
+2) Find empty strings in an array of strings (Array of strings will be given as input to program) and print the position of array where empty string is present. And replace the empty string array element as “CYIENT”
+
+Algorithm:
+1)	Declare and initialize pointer array.
+2)	Check thee condition if any array position has null value.
+3)	If condition is true replace the null value with “Cyient”.
+4)	Print both the position and new updated array.
