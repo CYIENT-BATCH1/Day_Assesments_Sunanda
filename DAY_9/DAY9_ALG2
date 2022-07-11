@@ -1,0 +1,6 @@
+2) Write program to set (1) bits CIS, C2OUT, C1OUT in register “CMCON” if bits CHS3, CHS2, CHS1 bits are set to 0x06 in register “ADCON0”
+Algorithm:
+1)	Read input in variable called ADCON and CMCON.
+2)	Check the condition whether ADCON is equal to 0x30 or 4810.
+3)	If condition is true set required bits of CMCON.
+4)	If condition is false print ADCON is not equal to 0x30.
