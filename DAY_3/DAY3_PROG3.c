@@ -1,4 +1,4 @@
-3)Write a program to reverse a 3-digit number which is entered from keyboard. 
+/*3)Write a program to reverse a 3-digit number which is entered from keyboard. */
 
 	#include <stdio.h>
 
