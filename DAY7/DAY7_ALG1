@@ -1,0 +1,20 @@
+
+1. Write a program to convert a data stream from Little Endian to Big Endian.
+
+The explaination assumes that input number is 1byte number.
+Let the input number be x 
+
+
+1.	Take x = input value of 1-byte (8-bits) numbers.
+
+2.	Get the rightmost 4 bits of the number by anding (&) it with 0x0F since the last 4 bits are all ones and the rest are all zeros, the result will be rightmost 4 bits of the number. The result is stored in a variable called right_bits.
+ 
+3.	Similarly, get the next 4 bits (the leftmost bits) of the number by anding it with 0XF0. The result is stored in left_bits.
+ 
+4.	Now that we have all the 8 bits of the number, we need to concatenate it in reverse order. i.e, swap the Endianness of the number. To do this, shift the rightmost 4 bits by 4 to the left so that it becomes the leftmost 4 bits. 
+
+5.	Shift the leftmost 4 bits by 4 to the right so that it becomes the rightmost 4 bits.
+ 
+6.	Now, we logically “or” (concatenate) variable right_bits with left_bits to obtain the result and store it in result variable.
+
+//*******************************************************//
