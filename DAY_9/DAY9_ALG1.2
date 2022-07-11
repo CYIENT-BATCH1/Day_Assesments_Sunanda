@@ -1,0 +1,9 @@
+II). Find out the value of UA, BF, SMP bits in SSPSTAT register if the value of the register is 0x55
+Algorithm:
+1)	Declare a variable named SSPSTAT and initialize it with 0X55 value, with this declare three more variables named res1, res2, res3.
+
+2)	Check the condition whether SSPSTAT contains 0x55 if the condition is true follow operations on res1, res2, res3.
+
+3)	Take SSPSTAT right shift it with bit position times and and the result with 1, store the entire result in res1. This will allow to get the bit at given bit position.
+
+4)	Repeat step 3) for the given different bit positions and store it in different variable (res2, res3 here).
