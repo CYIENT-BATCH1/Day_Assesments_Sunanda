@@ -1,0 +1,6 @@
+3) i)Set the register T0CON value such a way that bit TMR0ON and PSA bit are set    
+    (1), without disturbing the other bits.
+
+1)	Declare and initialize variable name T0CON with value 0xfa, also two more variable named pos, pos1 and initialize position bits to them.
+2)	To set a bit at given bit position left shift those bits by position times and or it with the T0CON value (0xfa) and store the result in T0CON itself.
+3)	Print T0CON.
