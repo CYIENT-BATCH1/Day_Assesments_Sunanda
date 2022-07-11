@@ -1,0 +1,8 @@
+1) Find common elements in three sorted arrays, 3 array values are given as input to program.
+
+Algorithm:
+1)	Declare and initialize three arrays to be compared.
+2)	Check if values of array 1 is equal to values of array 2 in a continues loop till loop is less than size of array.
+3)	Again, check the values of array 2 is equal to array 3 in a loop.
+4)	If conditions are met then swap.
+5)	Print the final array which has all common values.
