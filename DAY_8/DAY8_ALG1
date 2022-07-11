@@ -1,0 +1,12 @@
+1)	Realize a function which has 2 arguments and 1 return value. Argument 1 is Byte value, Argument 2 is bit position. Function has to flip the bit position (as per argument 2) in argument 1 byte value and return complete byte value.
+
+
+ 1)Declare and define function named flip_bits(int a, int b)  
+   and pass two integer arguments a(input) and b(bit position).
+
+2)	Create a mask to flip bits at given position by left shifting that bit by position times and store it in vaiable named mask.
+
+3)	Now exor the input value with the mask and store it in input variable named a, this will flip the bit at given postion p.
+
+4)	Now in driver function(main) take input at runtime and call the function flip_bits.
+
