@@ -1,0 +1,9 @@
+3)Write a program to Implement “Selection Sort” using Recursion for given elements:
+
+Algorithm:
+
+•	Initialize minimum value to location 0
+•	Traverse the array to find the minimum element in the array
+•	While traversing if any element smaller than minimum value is found then swap both the values.
+•	Then, increment minimum value to point to next element
+•	Repeat until array is sorted
